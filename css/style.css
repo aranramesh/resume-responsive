@@ -12,20 +12,20 @@ a{
     width: 90%;
     margin: auto;
 }
-.headerflex{
+.header-flex{
     text-align: center;
 }
-.headerflex h1{
+.header-flex h1{
     font-size: 26px;
     font-weight: 900;
     padding-top:30px;
     padding-bottom: 20px;
 }
-.headerflex p{
-    line-height: 1.5rem;
-    padding-bottom: 1rem;
+.header-flex p{
+    line-height: 20px;
+    padding-bottom: 16px;
 }
-.headerflex p span{
+.header-flex p span{
     font-size: 18px;
     font-weight: 700;
     opacity: .6;
@@ -34,10 +34,10 @@ a{
     height: auto;
     padding-bottom: 16px;
 }
-.objflex h2{
+.obj-flex h2{
     padding-top: 16px;
 }
-.objflex p{
+.obj-flex p{
     font-size:16px;
     line-height: 18px;
    text-align: justify;
@@ -45,14 +45,14 @@ a{
    padding-top: 14px;
    opacity: .9;
 }
-.education{
+.education-spec{
     height: auto;
     padding-bottom: 16px;
 }
-.educationflex h2{
+.qualification-flex h2{
     padding-top: 16px;
 }
-.educationflex ul {
+.qualification-flex ul {
     font-size: 18px;
     line-height: 20px;
    text-align: justify;
@@ -60,17 +60,17 @@ a{
    padding-top: 14px;
    opacity: .9;
 }
-.educationflex ul li span{
+.qualification-flex  span{
     font-weight: 900;
     opacity: .8;
 }
 .key{
     height: auto;
 }
-.keyflex h2{
+.key-skill h2{
     padding-top: 16px;
 }
-.keyflex ul {
+.key-skills ul {
     font-size: 18px;
     line-height: 22px;
    text-align: justify;
@@ -99,7 +99,7 @@ a{
 .personal h2{
     padding-top: 16px;
 }
-.personalflex p {
+.info-flex p {
     font-size: 16px;
     line-height: 22px;
    text-align: justify;
@@ -107,7 +107,7 @@ a{
    padding-top: 14px;
    opacity: .9;
 }
-.personalflex p span{
+.info-flex p span{
     font-size: 16px;
     font-weight: 700;
 }
@@ -115,10 +115,10 @@ a{
     height: auto;
 
 }
-.footerflex h2{
+.final-flex h2{
     padding-top: 16px;
 }
-.footerflex p {
+.final-flex p {
     font-size: 20px;
     line-height: 16px;
    text-align: justify;
@@ -126,7 +126,7 @@ a{
    padding-top: 14px;
    opacity: .9;
 }
-.footerflex h3{
+.final-flex h3{
     padding:16px 0 16px 0;
 }
 
@@ -135,6 +135,9 @@ a{
     .container{
         width:730px;
         margin:auto;
+    }
+    .obj-flex p{
+        font-size: 16px;
     }
 }
 @media(min-width:1000px){
@@ -145,6 +148,7 @@ a{
     }
    .obj p{
         font-size: 22px;
+        font-weight: 400;
         line-height: 32px;
     }
     .footer p{
@@ -159,15 +163,12 @@ a{
         font-size:18px;
         line-height: 32px;
     }
-    .education li{
+    .qualification-flex li{
         font-size: 18px;
         line-height: 32px;
     }
-  .key li{
+  .key-skills li{
     font-size: 18px;
     line-height: 32px;
-  }
-  .key{
-    border-left: solid 1px gray;
   }
 }
