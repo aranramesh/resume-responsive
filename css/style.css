@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    opacity: .8;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.headerflex{
+    text-align: center;
+}
+.headerflex h1{
+    font-size: 26px;
+    font-weight: 900;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+.headerflex p{
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+.headerflex p span{
+    font-size: 18px;
+    font-weight: 700;
+    opacity: .6;
+}
+.obj{
+    height: auto;
+    padding-bottom: 16px;
+}
+.objflex h2{
+    padding-top: 16px;
+}
+.objflex p{
+    font-size:16px;
+    line-height: 18px;
+   text-align: justify;
+   padding-left: 36px;
+   padding-top: 14px;
+   opacity: .9;
+}
+.education{
+    height: auto;
+    padding-bottom: 16px;
+}
+.educationflex h2{
+    padding-top: 16px;
+}
+.educationflex ul {
+    font-size: 18px;
+    line-height: 20px;
+   text-align: justify;
+   padding-left: 36px;
+   padding-top: 14px;
+   opacity: .9;
+}
+.educationflex ul li span{
+    font-weight: 900;
+    opacity: .8;
+}
+.key{
+    height: auto;
+}
+.keyflex h2{
+    padding-top: 16px;
+}
+.keyflex ul {
+    font-size: 18px;
+    line-height: 22px;
+   text-align: justify;
+   padding-left: 27px;
+   padding-top: 14px;
+   opacity: .9;
+}
+.activity{
+    height: auto;
+}
+.activity h2{
+    padding-top: 16px;
+}
+.activity ul {
+    font-size: 20px;
+    line-height: 22px;
+   text-align: justify;
+   padding-left: 36px;
+   padding-top: 14px;
+   opacity: .9;
+}
+.personal{
+    height: auto;
+
+}
+.personal h2{
+    padding-top: 16px;
+}
+.personalflex p {
+    font-size: 16px;
+    line-height: 22px;
+   text-align: justify;
+   padding-left: 36px;
+   padding-top: 14px;
+   opacity: .9;
+}
+.personalflex p span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer{
+    height: auto;
+
+}
+.footerflex h2{
+    padding-top: 16px;
+}
+.footerflex p {
+    font-size: 20px;
+    line-height: 16px;
+   text-align: justify;
+   padding-left: 36px;
+   padding-top: 14px;
+   opacity: .9;
+}
+.footerflex h3{
+    padding:16px 0 16px 0;
+}
+
+
+@media(min-width:768px){
+    .container{
+        width:730px;
+        margin:auto;
+    }
+}
+@media(min-width:1000px){
+    .container{
+        width:940px;
+        margin:auto;
+        
+    }
+   .obj p{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .footer p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .personal p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .activity li{
+        font-size:18px;
+        line-height: 32px;
+    }
+    .education li{
+        font-size: 18px;
+        line-height: 32px;
+    }
+  .key li{
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .key{
+    border-left: solid 1px gray;
+  }
+}
